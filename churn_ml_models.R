@@ -21,7 +21,7 @@ library(randomForest)
 
 # Adjust the path if needed
 Churn <- read.csv(
-  "C:/Users/juand/Documents/Diplomado/Entrega de Actividad M5/4.2 Dataset ejercicio 3 churn.csv",
+  "data/churn_dataset.csv foler",
   sep = "|",
   header = TRUE
 )
@@ -263,3 +263,4 @@ cat("\n5. BUSINESS RECOMMENDATIONS:\n")
 cat("   • Implement retention strategies\n")
 cat("   • Prioritize high-risk customers\n")
 cat("   • Monitor customer service interactions\n")
+
